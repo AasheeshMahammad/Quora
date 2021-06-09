@@ -1,0 +1,32 @@
+{
+	"manifest_version":2,
+	"name":"Something",
+	"version":"2.0",
+	"description":"Unblocks Quora HyperLinks",
+	"icons":
+	{
+		"128":"icon128.png",
+		"48":"icon48.png",
+		"16":"icon16.png"
+	},
+	"page_action":{
+		"default_icon":"icon16.png",
+		"default_popup":"popup.html",
+		"default_title":"Quora"
+	},
+	"background":{
+		"scripts":["eventpage.js"],
+		"persistent":true
+	},
+	"content_scripts":[
+		{
+			"matches":["https://www.quora.com/*"],
+			"js":["content.js","jquery-3.1.0.min.js"]
+		}
+	],
+	"permissions":[
+		"tabs",
+		"https://www.quora.com/*"
+		
+	]	
+}
