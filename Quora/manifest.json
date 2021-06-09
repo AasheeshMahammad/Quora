@@ -2,7 +2,7 @@
 	"manifest_version":2,
 	"name":"Something",
 	"version":"2.0",
-	"description":"Unblocks Quora HyperLinks",
+	"description":"Unblocks Quora HyperLinks (active Tabs for now) by appending "?share=1"",
 	"icons":
 	{
 		"128":"icon128.png",
@@ -11,7 +11,6 @@
 	},
 	"page_action":{
 		"default_icon":"icon16.png",
-		"default_popup":"popup.html",
 		"default_title":"Quora"
 	},
 	"background":{
