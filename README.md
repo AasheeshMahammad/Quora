@@ -1,6 +1,5 @@
 # Quora
-Chrome extension to bypass quora signup 
-(Works with current(active) tab for now)
+
 To install:
 Go to chrome://extensions/.
 At the top right, turn on Developer mode.
